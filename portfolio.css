@@ -743,6 +743,43 @@ margin-left: 18rem;
     }
 
 
+    @media only screen and ( max-width: 979px){
+       
+        .logo .port{
+            width: 20%;
+            }
+             .logo .nav{
+           
+            width: 60%;
+            font-size: 5px;
+            margin-top: 1%;
+             margin-right: 0rem;
+            
+        }
+        .home .head{
+            
+        }
+        .home .img{
+            margin-top: 8rem;
+  width: 50%;
+  height: 60vh;
+        }
+        
+        .ab .about .me{
+            margin: 2%;
+            width:30% ;
+            height: 40vh;
+        }
+        .service .box-2{
+            height: 90vh;
+        }
+        .service .box-2 .box-left{
+            height: 40vh;
+        }
+        .service .box-2 .box-right{
+            height: 40vh;
+        }
+    }
     
     @media only screen and ( max-width: 973px){
 .logo .port{
