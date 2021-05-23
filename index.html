@@ -46,12 +46,15 @@
           <div class="linex"  ></div>
           <div class="linex"  ></div>
           <div class="linex" ></div>
+         
               </div>
+             
     </div>
-
+    
     
      <script  >
   const hamburger = document.querySelector(".hamburger");
+  const entity = document.querySelector(".entity");
 const navLinks = document.querySelector(".nav");
 const links = document.querySelectorAll('.nav li');
 const line = document.querySelectorAll(".nav a")
@@ -60,6 +63,10 @@ const line = document.querySelectorAll(".nav a")
 
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("open");
+  $(".hamburger .linex ").css("display" , "block");
+
+  
+
 
   links.forEach(links => {
     links.classList.toggle("fade");
@@ -67,15 +74,10 @@ hamburger.addEventListener("click", () => {
   });
 });
 
-line.addEventListener("click", () => {
-  navLinks.classList.toggle("close");
 
-});
 
-line.addEventListener("click", () => {
-  $(".nav").css("pointer-events" , "none"); 
 
-});
+
 </script>
 
 <script> 
@@ -106,7 +108,7 @@ $(document).ready(function(){
 <h2> Hello, my name is </h2>
 <h1>  Varun  Maletha</h1>
 <h3   > And I'm a<span > web developer  </span></h3><br> 
-<button class="hire"> Hire me</button>
+<button class="hire"  > <a href="#contact" style="color: #fff;" > Hire me </a></button>
     </div>
     <div class="img">
 
@@ -183,9 +185,9 @@ Collaborate.
  <br>
      <li>  I have 3 month training experience from &nbsp; &nbsp; &nbsp; Tech access  </li> 
      <li> in this training i made two project  <br>
-      &nbsp; &nbsp; &nbsp;  a.   Food ordering website   <br>
-      &nbsp; &nbsp; &nbsp;  b.  demo music player  <br>
-       &nbsp; &nbsp; &nbsp;  I made Both the project indivisual.</li> 
+      &nbsp; &nbsp;   a.Food ordering website   <br>
+      &nbsp; &nbsp;   b.demo music player  <br> </li> 
+      <li>  I made Both the project indivisual. </li> 
    
      <li> I'm also diploma holder in computer science. </li>  <br>
      <button>Read more</button>
