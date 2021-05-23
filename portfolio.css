@@ -599,6 +599,131 @@ color: rgb(58, 5, 143);
 
 
 
+
+    @media only screen and ( max-width: 1085px){
+
+       
+        .home .img{
+            width: 50%;
+                    }
+                    .home .img {
+    
+                        height: 60vh;
+                            }
+                            .home .head {
+                                width: 30%;
+                            }
+.home .head {
+    margin-top: 18rem;
+}
+                 .home .head h1{
+                     font-size: 3rem;
+                 }           
+.home .head span{
+    font-size: 1.8rem;
+}
+.home .head button{
+    width: 80%;
+}
+
+            .ab .about .me{
+                width: 25%;
+                margin: 1%;
+                height:35vh;
+            }
+
+        .service{
+            width: 100%;
+            height: 90vh;
+        }
+        .box-2{
+            margin: 0%;
+            width: 100%;
+        }
+        .service .box-left{
+            margin: 0%;
+            width: 30%;
+            height: 35vh;
+            margin-left: 5rem;
+       margin-top: 3rem;
+        }
+        .service .box-2 .box-right {
+            margin: 0%;
+           width: 30%;
+           height: 35vh;
+           margin-top: 3rem;
+           margin-right: 8rem;
+       
+        }
+        .skill  {
+           
+        }
+        
+.skill .experience {
+    height: 70vh;
+    margin-left: 3rem;
+}
+
+        .skill .experience .know li{
+            text-transform: capitalize;
+            font-size: 1rem;
+        }
+        .skill .experience .know-1 label{
+            font-size: 1rem;
+        }
+        .skill .experience .space{
+            margin-left: 18rem;
+        }
+        .skill .experience .space-1{
+       margin-left: 18rem;
+        }
+        .skill .experience .space-2{
+       margin-left: 16rem;
+        }
+        .skill .experience .space-3{
+       margin-left: 16rem;
+        }
+        .skill .experience .space-4{
+       margin-left: 18rem;
+        }
+        .skill .experience .space-5{
+       margin-left: 18rem;
+        }
+        .skill .experience .know button{
+            font-size: 0.8rem;
+            width: 90$;
+            height: 30px;
+        }
+
+        .contact{
+            height: 100vh;
+        }
+        .contact .contain .row-2 button{
+            width: 30%;
+            height: 35px;
+            font-size: 15px;
+        }
+        .contact .row-2 h2{
+            font-size: 1.3rem;
+        }
+        
+         .font .fa-arrow-circle-up{
+           font-size: 5rem;
+        }
+        .footer{
+            font-size: 1rem;
+        }
+
+    }
+
+
+
+
+
+
+
+
+
     @media only screen and ( max-width: 1013px){
   
         .port {
@@ -658,14 +783,14 @@ margin-left: 4rem;
  }
  .service .box-left{
      margin: 0%;
-     width: 35%;
+     width: 30%;
      height: 50vh;
      margin-left: 5rem;
 margin-top: 3rem;
  }
  .service .box-2 .box-right {
      margin: 0%;
-    width: 35%;
+    width: 30%;
     height: 50vh;
     margin-top: 3rem;
     margin-right: 8rem;
@@ -743,8 +868,9 @@ margin-left: 18rem;
     }
 
 
-    @media only screen and ( max-width: 979px){
-       
+    @media only screen and ( max-width: 992px){
+
+
         .logo .port{
             width: 20%;
             }
@@ -756,20 +882,49 @@ margin-left: 18rem;
              margin-right: 0rem;
             
         }
-        .home .head{
-            
-        }
+       
         .home .img{
             margin-top: 8rem;
-  width: 50%;
+  width: 30%;
   height: 60vh;
         }
-        
-        .ab .about .me{
-            margin: 2%;
-            width:30% ;
-            height: 40vh;
+        .service .box-2{
+           
         }
+        .service .box-2 .box-left p{
+   font-size: 0.8rem;        
+        }
+        .service .box-2 .box-right  p{
+   font-size: 0.8rem;         
+        }
+
+
+    }
+
+
+
+    
+    
+
+    @media only screen and ( max-width: 979px){
+       
+      
+.logo .port{
+    width: 20%;
+    }
+    .nav{
+        width: 60%;
+        font-size: 5px;
+        margin-top: 1%;
+         margin-right: 0rem;
+     }
+       
+       
+      
+.ab .about .me{
+    width: 25%;
+    height: 50vh;
+}
         .service .box-2{
             height: 90vh;
         }
@@ -780,6 +935,9 @@ margin-left: 18rem;
             height: 40vh;
         }
     }
+
+
+
     
     @media only screen and ( max-width: 973px){
 .logo .port{
@@ -853,6 +1011,15 @@ margin-left: 12.5rem;
     }
 
 
+    @media only screen and ( max-width: 865px){
+      .ab  .about .me{
+width: 25%;
+height:50vh;
+        }
+        .contact .contain .row-2 button{
+            font-size: 0.8rem;
+        }
+    }
 
     @media only screen and ( max-width: 821px){
       .home .img{
@@ -876,7 +1043,7 @@ width: 40%;
     }
 
 
-    @media only screen and ( max-width: 761px){
+    @media only screen and ( max-width: 817px){
 
         .home .img {
     
@@ -911,6 +1078,8 @@ font-size: 1.6rem;
 
 
 
+   
+       
 @media only screen and ( max-width: 720px) {
     
 
