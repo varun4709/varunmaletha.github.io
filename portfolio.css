@@ -1853,7 +1853,27 @@ margin-left: 4rem;
 
     }
 
+      
+    @media only screen and (max-width:368px)
+    {
 
+      
+.skill .experience .know-1{
+    width: 80%;
+    margin-left: 0%;
+    margin-top: 2rem;
+    padding: 2%;
+ 
+}
+.service .box-2 .box-left .fa-code{ 
+    margin-left: 4rem;
+}
+.service .box-2 .box-right .fa-line-chart{ 
+    margin-left: 4rem;
+}
+
+
+    }
 
    @media only screen and ( max-width:320px) {
     
